@@ -1,4 +1,4 @@
-CUSTOM_BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
+CUSTOM_BUILD_DATE := $(shell TZ=Asia/Macau date +%Y%m%d-%H%M)
 
 CUSTOM_PLATFORM_VERSION := 17.0
 
